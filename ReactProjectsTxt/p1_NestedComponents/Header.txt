@@ -1,0 +1,13 @@
+
+const Header = () => {
+    return (
+        <div class="jumbotron">
+        <h1 class="display-4">E-Cart</h1>
+        <p class="lead">This is a website for which is going to fulfill all your E-shopping wishes at one place!</p>
+        <hr class="my-4"/>
+        <p>Click the button to know more about our website.</p>
+        <button type="button" class="btn btn-outline-info">Learn More</button>
+        </div>
+    )
+}
+export default Header;

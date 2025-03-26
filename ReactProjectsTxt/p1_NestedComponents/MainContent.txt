@@ -1,0 +1,12 @@
+
+const Maincontent = () => {
+    return (
+        <div>
+            <h2>Welcome to E-Cart – Your Ultimate E-Shopping Destination!</h2>
+            <h3>Unveil a World of Convenience, Variety, and Affordability</h3>
+            <p>At E-Cart, we bring you an extensive range of high-quality products that cater to every aspect of your life. Whether you're looking to upgrade your wardrobe with the latest fashion trends, find cutting-edge electronics and gadgets, or enhance your living space with stylish home essentials, we have it all in one place. Our intuitive platform ensures a seamless shopping experience, allowing you to browse, purchase, and track your orders with ease. With secure payment options and reliable delivery services, E-Cart is here to make your shopping journey enjoyable and hassle-free.<br/>
+But that's not all! E-Cart is more than just a shopping website—it's a community of savvy shoppers who appreciate quality, convenience, and value. We offer unbeatable prices and exclusive deals on top-rated products, ensuring you get the best bang for your buck. Our dedicated customer support team is always ready to assist you with any queries or concerns, making your satisfaction our top priority. Join the E-Cart family today and discover the ultimate convenience of online shopping, where your desires and needs are fulfilled with just a few clicks. Experience the future of shopping with E-Cart!</p>
+        </div>
+    )
+}
+export default Maincontent;

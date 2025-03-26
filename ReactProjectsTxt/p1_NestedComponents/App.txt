@@ -1,0 +1,29 @@
+import logo from './logo.svg';
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
+import Maincontent from './components/Maincontent';
+import Footer from './components/Footer';
+function App() {
+  return (
+    <div>
+      <Navbar />
+      <Header />
+      <div className='row'>
+        <div className="col-md-3">
+          <Sidebar />
+        </div>
+        <div className="col-md-9">
+          <Maincontent />
+        </div>
+      </div>
+      <Footer />      
+    </div>
+    
+  );
+}
+
+export default App;
